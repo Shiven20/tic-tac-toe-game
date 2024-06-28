@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    font-family: 'Open-Sans' , sans-serif;
+    color:rgb(44,41,44) ;
+    background-color: black;
+    background-image: url("../images/tictactoe1.jpg ");
+   background-blend-mode: luminosity;
+  
+    
+}
+#main-header{
+    background-color: black;
+    color:black;
+    padding: 2rem 5%;
+    text-align: center;
+    background-image: url("../images/tictactoe1.jpg "); 
+    background-blend-mode: luminosity;
+    font-size: xx-large;
+   
+}
+
+.btn{
+ font-family: inherit;  
+ padding: 0.5rem 1.5rem;
+ background-color:rgb(235, 2, 235) ;
+ border: 1px solid rgb(235, 2, 235) ;
+ color: white;
+ border-radius: 4px;
+ cursor: pointer;
+ font-weight: bolder;
+ margin-top: 30px;;
+}
+#start-game-btn{
+    font-size: 20px;
+}
+.btn-alt{
+background-color: transparent;
+border-color: transparent;
+color:rgb1(235, 2, 235);
+color:black  ;
+font-size: 20px;
+font-weight: bolder;
+}
+.btn:hover{
+    background-color:rgb(228, 99, 228) ;
+    border-color:rgb(228, 99, 228) ;
+}
+.btn-alt:hover{
+    background-color: rgb(244, 172, 244);
+  border-color: transparent;
+}
