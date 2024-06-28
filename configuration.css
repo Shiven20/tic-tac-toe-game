@@ -45,7 +45,7 @@
     padding: 1rem;
     width: 50%;
     background-color: purple;
-    background-image: url("../images/tictactoe1.jpg");
+    background-image: url("tictactoe1.jpg");
     background-blend-mode: luminosity;
     
     border-radius: 4px;
