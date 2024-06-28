@@ -3,7 +3,7 @@ body{
     font-family: 'Open-Sans' , sans-serif;
     color:rgb(44,41,44) ;
     background-color: black;
-    background-image: url("img/tictactoe1.jpg");
+    background-image: url("tictactoe1.jpg");
    background-blend-mode: luminosity;
   
     
@@ -13,7 +13,7 @@ body{
     color:black;
     padding: 2rem 5%;
     text-align: center;
-    background-image: url("/tictactoe1.jpg"); 
+    background-image: url("tictactoe1.jpg"); 
     background-blend-mode: luminosity;
     font-size: xx-large;
    
