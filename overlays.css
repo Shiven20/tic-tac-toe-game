@@ -10,6 +10,9 @@
     display: none;
    
 }
+.modal form div input{
+    width:60%
+}
 #backdrop{
     position: fixed;
     top:0;
