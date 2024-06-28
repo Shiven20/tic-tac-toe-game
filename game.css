@@ -46,7 +46,7 @@
 }
 #game-board li:hover{
    background-color: gray;
-   background-image: url("../images/tictactoe3.jpg");
+   background-image: url("tictactoe3.jpg");
     background-blend-mode: color-burn;
 }
 #game-board li.disabled{
