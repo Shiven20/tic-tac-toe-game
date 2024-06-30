@@ -4,6 +4,7 @@ function resetGameStatus(){ //
     gameIsOver=false;
     gameOverElement.firstElementChild.innerHTML= 'you won, <span id="winner-name">PLAYER NAME</span>!';
     gameOverElement.style.display="none";
+    remove.style.display="block";
 
     let gameBoardIndex=0;
     for(let i=0;i<3;i++){
@@ -105,7 +106,7 @@ function checkForGameOver(){
 function endGame(winnerId){
     gameIsOver=true;
     gameOverElement.style.display="block";
-
+    remove.style.display="none";
     if(winnerId>0){
 
         const winnerName=players[winnerId-1].name;
