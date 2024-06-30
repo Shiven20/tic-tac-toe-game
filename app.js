@@ -26,7 +26,7 @@ const formElement=document.querySelector("form"); //
 const errorsOutputElement=document.getElementById("config-errors"); //
 const gameAreaElement=document.getElementById("active-game");//
 const gameOverElement=document.getElementById("game-over");//
-
+const remove=document.getElementById("remove-a");
 
 
 const editPlayer1BtnElement=document.getElementById("edit-player-1-btn"); //
